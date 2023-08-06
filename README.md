@@ -65,3 +65,8 @@ Kyrie Blog是由SpringBoot1.5 + MyBatis + Thymeleaf等技术实现的个人网�
 ###  如果此博客能帮助到你，请作者喝杯咖啡吧或者建设演示服务器
 ![wacht](https://github.com/caozongpeng/github-static/blob/master/money/wacht.jpg)
 ![alipay](https://github.com/caozongpeng/github-static/blob/master/money/alipay.jpg)
+
+### 辅助工具
+```shell script
+mysql.server start
+```
