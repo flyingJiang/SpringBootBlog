@@ -35,13 +35,13 @@
                     <th:block th:each="index : ${commons.social()}">
                         <th:block th:if="${index.value} != null and ${index.value} != ''">
                             <th:block th:switch="${index.key}">
-                                <th:block th:case="'github'">
-                                    <span class="links-of-author-item">
-                                        <a th:href="@{${index.value}}" target="_blank" title="GitHub">
-                                            <i class="fa fa-fw fa-github"></i>GitHub
-                                        </a>
-                                    </span>
-                                </th:block>
+<!--                                <th:block th:case="'github'">-->
+<!--                                    <span class="links-of-author-item">-->
+<!--                                        <a th:href="@{${index.value}}" target="_blank" title="GitHub">-->
+<!--                                            <i class="fa fa-fw fa-github"></i>GitHub-->
+<!--                                        </a>-->
+<!--                                    </span>-->
+<!--                                </th:block>-->
                                 <th:block th:case="'weibo'">
                                     <span class="links-of-author-item">
                                         <a th:href="@{${index.value}}" target="_blank" title="微博">
@@ -66,21 +66,21 @@
                                     </span>
                                 </th:block>
 
-                                <th:block th:case="'csdn'">
-                                    <span class="links-of-author-item">
-                                        <a th:href="@{${index.value}}" target="_blank" title="知乎">
-                                            <i class="fa fa-fw fa-chrome"></i>CSDN
-                                        </a>
-                                    </span>
-                                </th:block>
+<!--                                <th:block th:case="'csdn'">-->
+<!--                                    <span class="links-of-author-item">-->
+<!--                                        <a th:href="@{${index.value}}" target="_blank" title="知乎">-->
+<!--                                            <i class="fa fa-fw fa-chrome"></i>CSDN-->
+<!--                                        </a>-->
+<!--                                    </span>-->
+<!--                                </th:block>-->
 
-                                <th:block th:case="'resume'">
-                                    <span class="links-of-author-item">
-                                        <a th:href="@{${index.value}}" target="_blank" title="知乎">
-                                            <i class="fa fa-fw fa-globe"></i>简历
-                                        </a>
-                                    </span>
-                                </th:block>
+<!--                                <th:block th:case="'resume'">-->
+<!--                                    <span class="links-of-author-item">-->
+<!--                                        <a th:href="@{${index.value}}" target="_blank" title="知乎">-->
+<!--                                            <i class="fa fa-fw fa-globe"></i>简历-->
+<!--                                        </a>-->
+<!--                                    </span>-->
+<!--                                </th:block>-->
                             </th:block>
                         </th:block>
                     </th:block>
