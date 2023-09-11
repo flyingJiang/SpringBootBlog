@@ -41,12 +41,6 @@
 ![report](http://pb84kab39.bkt.clouddn.com/sc/demo05.png)
 ![recommend](http://pb84kab39.bkt.clouddn.com/sc/demo06.png)
 
-#### 前端效果
-![index](https://github.com/caozongpeng/github-static/blob/master/springBootBlog/index.png)
-
-#### 后端效果
-![adminlogin](https://github.com/caozongpeng/github-static/blob/master/springBootBlog/adminlogin.png)
-
 ### 安装
 下载源码，执行sql文件，然后修改application-dev.yml文件中连接数据库的用户名、密码。运行项目即可。
 
